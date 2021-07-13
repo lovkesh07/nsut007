@@ -43,14 +43,12 @@
 .slider h2{
     position: relative;
     z-index: 100;
-    font-size: 4em;
+    font-size: 8vw;
     text-align: center;
     max-width: 1000px;
-    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    color: rgb(255, 255, 255);
+   
 }
-
-
-
 
 
 /* -------------- gallery---------------- */
@@ -118,12 +116,10 @@
     transform: scale(1.1);
 }
 
-
-
-/* --------------------------footer start----------------------- */
-  .footer{
-    background-color: rgb(5, 5, 5);
-    color: rgb(230, 56, 56);
+/* --------------------------footer----------------------- */
+.footer{
+    background: rgb(46, 44, 44);
+    /* color: rgb(230, 56, 56); */
     text-align:center;
     font-weight: var(--font-semi);
     padding: 2vw 0;
@@ -143,8 +139,10 @@
     font-size: 1vw;
     color: #fff;
  }
-
 /* --------------------------footer end----------------------- */
+
+
+
 
 
 
